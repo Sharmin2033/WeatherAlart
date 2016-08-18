@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/raan"
+    tools:context="saiefalemon.weatheralart.MainActivity">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:id="@+id/weatherIconImageView"
+            android:src="@drawable/firstimg"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Which City or Area"
+            android:textSize="30sp"
+            android:id="@+id/temparature"
+            android:textStyle="bold"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#fbfbfc"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Your city"
+            android:textSize="25sp"
+            android:id="@+id/cityET"
+            android:textStyle="bold"
+            android:textColor="#111112"
+            android:layout_marginTop="35dp"
+            android:layout_gravity="center_horizontal" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:text="Ok"
+                android:textSize="18sp"
+                android:onClick="setCity"
+                android:textColor="#FFF"
+                android:background="#1a3cab"
+                android:layout_height="wrap_content" />
+
+</LinearLayout>

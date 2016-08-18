@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical"
+    tools:context="saiefalemon.weatheralart.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="5 August 2016"
+        android:textColor="#fff"
+        android:id="@+id/dateTV"
+        android:textSize="22sp"
+        android:layout_gravity="center_horizontal" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="2"
+                    android:gravity="left"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="Sunrise"
+                        android:textSize="25sp"
+                        android:textColor="#FFF"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="6:30 AM"
+                        android:id="@+id/sunriseTV"
+                        android:textSize="25sp"
+                        android:textColor="#FFF"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <ImageView
+                    android:id="@+id/weatherIconImageView"
+                    android:layout_width="100sp"
+                    android:layout_height="100sp"
+                    android:layout_weight="4"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/firstimg" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="right"
+                    android:layout_weight="2"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="Sunset"
+                        android:textSize="25sp"
+                        android:textColor="#FFF"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="6:20 PM"
+                        android:id="@+id/sunsetTV"
+                        android:textSize="25sp"
+                        android:textColor="#FFF"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/conditonTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Temperature"
+                android:textColor="#fffcfc"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/tempForen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="77 F"
+                android:textColor="#FFF"
+                android:layout_marginTop="15sp"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/tempCelsius"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20sp"
+                android:text="30 C"
+                android:textColor="#FFF"
+                android:textSize="30sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+               <LinearLayout
+                   android:layout_width="wrap_content"
+                   android:layout_weight="2"
+                   android:orientation="vertical"
+                   android:layout_height="wrap_content"
+                   android:baselineAligned="false">
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:text="Max"
+                       android:textColor="#ecef97"
+                       android:textSize="25sp"
+                       android:layout_gravity="center_horizontal"
+                       android:layout_height="wrap_content" />
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:text="77 F"
+                       android:id="@+id/maxTempTV"
+                       android:textColor="#ecef97"
+                       android:textSize="25sp"
+                       android:layout_gravity="center_horizontal"
+                       android:layout_height="wrap_content" />
+               </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="2"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="Min"
+                        android:textColor="#ecef97"
+                        android:gravity="right"
+                        android:textSize="25sp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="70 F"
+                        android:id="@+id/minTempTV"
+                        android:textColor="#ecef97"
+                        android:gravity="right"
+                        android:textSize="25sp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/cityTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Dhaka"
+                    android:textColor="#f3f7f7"
+                    android:textSize="22sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" , "
+                    android:textColor="#f3f7f7"
+                    android:textSize="38sp" />
+
+                <TextView
+                    android:id="@+id/countryTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="BD"
+                    android:textColor="#f3f7f7"
+                    android:textSize="22sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+                <Button
+                    android:layout_width="wrap_content"
+                    android:text="Back"
+                    android:background="#0882c9"
+                    android:textAllCaps="false"
+                    android:textSize="20sp"
+                    android:layout_weight="3"
+                    android:onClick="backToScreen"
+                    android:layout_margin="2sp"
+                    android:textColor="#FFF"
+                    android:layout_height="match_parent" />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:text="Forecast"
+                    android:textAllCaps="false"
+                    android:layout_weight="3"
+                    android:onClick="ForecastTemp"
+                    android:layout_margin="2sp"
+                    android:textSize="20sp"
+                    android:background="#0882c9"
+                    android:textColor="#FFF"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

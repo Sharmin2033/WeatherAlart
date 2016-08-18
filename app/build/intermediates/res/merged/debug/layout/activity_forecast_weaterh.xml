@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/back"
+    android:orientation="vertical"
+    tools:context="saiefalemon.weatheralart.MainActivity">
+
+    <TextView
+        android:id="@+id/headTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="Forecast of Dhaka, Bangladesh"
+        android:textColor="#fff"
+        android:textSize="22sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="8sp"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_weight="3"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:textSize="22sp"
+                    android:layout_gravity="center"
+                    android:textColor="#FFF"
+                    android:id="@+id/datetvOne"
+                    android:text="11 August 2016"
+                    android:layout_height="wrap_content" />
+
+               <LinearLayout
+                   android:orientation="horizontal"
+                   android:layout_marginLeft="10sp"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content">
+                   <TextView
+                       android:layout_width="120sp"
+                       android:textSize="20sp"
+                       android:textColor="#FFF"
+                       android:id="@+id/maxOne"
+                       android:gravity="center"
+                       android:text="Max : 70 F"
+                       android:layout_height="wrap_content" />
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:text="/"
+                       android:textColor="#fff"
+                       android:textSize="20sp"
+                       android:layout_height="wrap_content" />
+                   <TextView
+                       android:layout_width="120sp"
+                       android:gravity="center"
+                       android:textSize="20sp"
+                       android:textColor="#FFF"
+                       android:id="@+id/minOne"
+                       android:text="Min : 30 C"
+                       android:layout_height="wrap_content" />
+
+               </LinearLayout>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:textSize="22sp"
+                    android:textColor="#e76908"
+                    android:gravity="center"
+                    android:id="@+id/textOne"
+                    android:text="Scattered Showers"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="100sp"
+                    android:src="@drawable/icon0"
+                    android:layout_height="80sp"
+                    android:id="@+id/imageViewOne" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="8sp"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_weight="3"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:textSize="22sp"
+                android:layout_gravity="center"
+                android:id="@+id/datetvtwo"
+                android:textColor="#FFF"
+                android:text="11 August 2016"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_marginLeft="10sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="120sp"
+                    android:textSize="20sp"
+                    android:textColor="#FFF"
+                    android:id="@+id/maxTwo"
+                    android:gravity="center"
+                    android:text="Max : 70 F"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="/"
+                    android:textColor="#fff"
+                    android:textSize="20sp"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="120sp"
+                    android:gravity="center"
+                    android:id="@+id/minTow"
+                    android:textSize="20sp"
+                    android:textColor="#FFF"
+                    android:text="Min : 30 C"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:textSize="22sp"
+                android:textColor="#e76908"
+                android:id="@+id/textTwo"
+                android:gravity="center"
+                android:text="Scattered Showers"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="100sp"
+                android:src="@drawable/icon0"
+                android:layout_height="80sp"
+                android:id="@+id/imageViewTwo" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="8sp"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_weight="3"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:textSize="22sp"
+                android:layout_gravity="center"
+                android:textColor="#FFF"
+                android:id="@+id/datetvthree"
+                android:text="11 August 2016"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_marginLeft="10sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="120sp"
+                    android:textSize="20sp"
+                    android:textColor="#FFF"
+                    android:id="@+id/maxThree"
+                    android:gravity="center"
+                    android:text="Max : 70 F"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="/"
+                    android:textColor="#fff"
+                    android:textSize="20sp"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="120sp"
+                    android:gravity="center"
+                    android:id="@+id/minThree"
+                    android:textSize="20sp"
+                    android:textColor="#FFF"
+                    android:text="Min : 30 C"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:textSize="22sp"
+                android:textColor="#e76908"
+                android:id="@+id/textThree"
+                android:gravity="center"
+                android:text="Scattered Showers"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="100sp"
+                android:src="@drawable/icon0"
+                android:layout_height="80sp"
+                android:id="@+id/imageViewThree" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="8sp"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_weight="3"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:textSize="22sp"
+                android:id="@+id/datetvfour"
+                android:layout_gravity="center"
+                android:textColor="#FFF"
+                android:text="11 August 2016"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_marginLeft="10sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="120sp"
+                    android:textSize="20sp"
+                    android:textColor="#FFF"
+                    android:id="@+id/maxFour"
+                    android:gravity="center"
+                    android:text="Max : 70 F"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="/"
+                    android:textColor="#fff"
+                    android:textSize="20sp"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="120sp"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:id="@+id/minFour"
+                    android:textColor="#FFF"
+                    android:text="Min : 30 C"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:textSize="22sp"
+                android:textColor="#e76908"
+                android:id="@+id/textFour"
+                android:gravity="center"
+                android:text="Scattered Showers"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="100sp"
+                android:src="@drawable/icon0"
+                android:layout_height="80sp"
+                android:id="@+id/imageViewFour" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="8sp"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_weight="3"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:textSize="22sp"
+                android:layout_gravity="center"
+                android:textColor="#FFF"
+                android:id="@+id/datetvFive"
+                android:text="11 August 2016"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_marginLeft="10sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="120sp"
+                    android:textSize="20sp"
+                    android:textColor="#FFF"
+                    android:id="@+id/maxFive"
+                    android:gravity="center"
+                    android:text="Max : 70 F"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="/"
+                    android:textColor="#fff"
+                    android:textSize="20sp"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="120sp"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:id="@+id/minFive"
+                    android:textColor="#FFF"
+                    android:text="Min : 30 C"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:textSize="22sp"
+                android:textColor="#e76908"
+                android:id="@+id/textFive"
+                android:gravity="center"
+                android:text="Scattered Showers"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="100sp"
+                android:src="@drawable/icon0"
+                android:layout_height="80sp"
+                android:id="@+id/imageViewFive" />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="match_parent"
+            android:text="Back"
+            android:textAllCaps="false"
+            android:layout_marginTop="10sp"
+            android:onClick="backToDetail"
+            android:textSize="20sp"
+            android:background="#0882c9"
+            android:textColor="#FFF"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

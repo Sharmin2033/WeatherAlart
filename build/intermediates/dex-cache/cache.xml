@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\AndroidStudio\WeatherAlart(Final)\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="c936c1bd42f0c018c18920c7bec619ef056b24f8">
+        <dex dex="D:\AndroidStudio\WeatherAlart(Final)\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-24.1.1_94be38cfa5057b2690fdc128e1229b2dc070d6a1.jar" />
+    </item>
+    <item
+        jar="D:\AndroidStudio\WeatherAlart(Final)\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="f62e763609f65e47dc6c498760a4accf02776788">
+        <dex dex="D:\AndroidStudio\WeatherAlart(Final)\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-24.1.1_3ae1c695ce60a1e5037bd585a85deab24f970d45.jar" />
+    </item>
+    <item
+        jar="C:\Users\Himel\.gradle\caches\modules-2\files-2.1\com.android.support\support-annotations\24.1.1\3af19f153122737b372622fa6c81dd11a1c6b999\support-annotations-24.1.1.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="3af19f153122737b372622fa6c81dd11a1c6b999">
+        <dex dex="D:\AndroidStudio\WeatherAlart(Final)\app\build\intermediates\pre-dexed\debug\support-annotations-24.1.1_e750693c007e1fd55871e636cbe4514a916e323e.jar" />
+    </item>
+    <item
+        jar="D:\AndroidStudio\WeatherAlart(Final)\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\jars\libs\internal_impl-24.1.1.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="f78c2f395cb096f9dc1dc07e729922b8fcd3c4f5">
+        <dex dex="D:\AndroidStudio\WeatherAlart(Final)\app\build\intermediates\pre-dexed\debug\internal_impl-24.1.1_8b8e430b4b65e9654573d72c213bd09a3ebaab0a.jar" />
+    </item>
+    <item
+        jar="D:\AndroidStudio\WeatherAlart(Final)\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="1256c10604bb098490eab070d76754ac5ceab35c">
+        <dex dex="D:\AndroidStudio\WeatherAlart(Final)\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-24.1.1_d251520953591e77815ee2b67c3312c675893812.jar" />
+    </item>
+    <item
+        jar="D:\AndroidStudio\WeatherAlart(Final)\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="6d7d803871e3203465f71a163e7af104f807b446">
+        <dex dex="D:\AndroidStudio\WeatherAlart(Final)\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.1.1_b2cfe9fd11efed3e8e1332c29ee675350a33aa38.jar" />
+    </item>
+
+</items>

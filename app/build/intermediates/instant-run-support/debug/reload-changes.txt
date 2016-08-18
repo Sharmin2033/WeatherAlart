@@ -1,0 +1,11 @@
+CHANGED,E:\Batch15\WeatherAlart(Final)\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\android\tools\fd\runtime\AppPatchesLoaderImpl.class
+CHANGED,E:\Batch15\WeatherAlart(Final)\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\saiefalemon\weatheralart\R$override.class
+CHANGED,E:\Batch15\WeatherAlart(Final)\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\saiefalemon\weatheralart\R$style$override.class
+CHANGED,E:\Batch15\WeatherAlart(Final)\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\saiefalemon\weatheralart\R$styleable$override.class
+CHANGED,E:\Batch15\WeatherAlart(Final)\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\saiefalemon\weatheralart\R$layout$override.class
+CHANGED,E:\Batch15\WeatherAlart(Final)\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\saiefalemon\weatheralart\R$id$override.class
+CHANGED,E:\Batch15\WeatherAlart(Final)\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\android\support\v7\appcompat\R$drawable$override.class
+CHANGED,E:\Batch15\WeatherAlart(Final)\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\saiefalemon\weatheralart\R$drawable$override.class
+CHANGED,E:\Batch15\WeatherAlart(Final)\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\saiefalemon\weatheralart\R$string$override.class
+CHANGED,E:\Batch15\WeatherAlart(Final)\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\saiefalemon\weatheralart\R$mipmap$override.class
+CHANGED,E:\Batch15\WeatherAlart(Final)\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\saiefalemon\weatheralart\R$integer$override.class
